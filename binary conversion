@@ -1,0 +1,5 @@
+# Let's talk to the computer in its language!
+
+num = int(input("Type a number:"))
+binary = bin(num)[2:]  # Remove the 'Ob' that Python adds
+print("In binary, thats's:", binary )
